@@ -19,7 +19,7 @@
         },
         "KEYCLOAK_PASSWORD": {
             "description": "Initial Admin password",
-            "value": "change_me"
+            "value": "admin"
         },
         "PROXY_ADDRESS_FORWARDING": {
             "description": "Set to true since we will be running behind Heroku's load balancers",
@@ -29,7 +29,7 @@
     "formation": {
         "web": {
             "quantity": 1,
-            "size": "Standard-1X"
+            "size": "Free"
         }
     },
     "addons": [
