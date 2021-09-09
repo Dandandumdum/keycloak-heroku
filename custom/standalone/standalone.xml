@@ -599,7 +599,7 @@
                 <response-header name="server-header" header-value="WildFly/10" header-name="Server"/>
                 <response-header name="x-powered-by-header" header-value="Undertow/1" header-name="X-Powered-By"/>
                 <!-- CORS headers -->
-                <response-header name="Access-Control-Allow-Origin" header-name="Access-Control-Allow-Origin" header-value="https://keycloak-boxinator.herokuapp.com/auth/realms/boxinator-app/protocol/openid-connect/token"/>
+                <response-header name="Access-Control-Allow-Origin" header-name="Access-Control-Allow-Origin" header-value="https://boxinator-frontend1.herokuapp.com/"/>
                 <response-header name="Access-Control-Allow-Methods" header-name="Access-Control-Allow-Methods" header-value="OPTIONS, GET, POST, PUT, DELETE"/>
                 <response-header name="Access-Control-Allow-Headers" header-name="Access-Control-Allow-Headers" header-value="accept, authorization, content-type, x-requested-with"/>
                 <response-header name="Access-Control-Allow-Credentials" header-name="Access-Control-Allow-Credentials" header-value="true"/>
